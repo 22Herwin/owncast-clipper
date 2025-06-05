@@ -29,7 +29,7 @@ app.get('/', (req, res) => {
 
 // Proxy for Owncast HLS stream
 app.use('/proxy-hls', createProxyMiddleware({
-  target: 'http://192.168.56.101:8080',
+  target: 'http://<ip-pc>:8080',
   changeOrigin: true,
   pathRewrite: {
     '^/proxy-hls': ''
