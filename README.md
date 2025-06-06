@@ -123,6 +123,7 @@ owncast-clipper/
 ├── start_stream.sh      # Script to auto-run everything
 ├── package.json
 ├── .gitignore
+├── start_stream.sh
 └── README.md
 ```
 
